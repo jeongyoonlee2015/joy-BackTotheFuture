@@ -1,4 +1,4 @@
-package MethodPattern;
+package AdapterPattern;
 
 public class Math {
     public static double twoTime(double num){return num * 2;}
