@@ -1,0 +1,4 @@
+## Strategy Pattern
+
+* Advantages
+* Example
