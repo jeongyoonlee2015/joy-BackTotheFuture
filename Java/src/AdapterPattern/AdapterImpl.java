@@ -1,4 +1,4 @@
-package MethodPattern;
+package AdapterPattern;
 
 
 public class AdapterImpl implements Adapter{
