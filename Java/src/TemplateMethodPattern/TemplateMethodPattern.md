@@ -1,0 +1,4 @@
+## TemplateMethodPattern
+
+* Advantages
+* Example
