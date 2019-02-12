@@ -1,4 +1,4 @@
-package MethodPattern;
+package AdapterPattern;
 
 //import com.sun.jdi.FloatValue;
 
