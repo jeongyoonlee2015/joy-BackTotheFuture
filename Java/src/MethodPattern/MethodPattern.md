@@ -1,4 +1,4 @@
-## AdapterPattern
+## MethodPattern
 
 * Advantages
 * Example
