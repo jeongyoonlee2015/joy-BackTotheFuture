@@ -1,0 +1,4 @@
+## AdapterPattern
+
+* Advantages
+* Example
