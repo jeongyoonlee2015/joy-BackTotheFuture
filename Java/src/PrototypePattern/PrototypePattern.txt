@@ -1,0 +1,2 @@
+Learned Prototype Pattern at 20/27/2019 12:11
+Shallow copy, deep copy will learn tomorrow.
