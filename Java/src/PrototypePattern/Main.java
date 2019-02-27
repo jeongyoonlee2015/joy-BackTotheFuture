@@ -1,7 +1,7 @@
 public class Main{
     public static void main(String[] args){
         Circle circle1 = new Circle(1, 1, 3);
-        Circle circle2 - circle1.copy();
+        Circle circle2 = circle1.copy();
     
         System.out.println(circle1.getX()+","+
                            circle1.getY()+","+
