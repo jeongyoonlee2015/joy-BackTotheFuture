@@ -1,7 +1,7 @@
 ## BaseLine: Data, ML, API
 
 * [Introduction to SQL for BigQuery and Cloud SQL]() 
-* [Big Query - Console]()
+* [Big Query - Console](https://github.com/jeongyoonlee2015/joy-BackTotheFuture/blob/master/GoogleCloudTraining/BaseLine:Data%2CML%2CAI/QwikLab_BigQuery.pdf)
 * [Bigtable - CommandLine]()
 * [Cloud Natural Language API]()
 * [Google Cloud Speech API]()
