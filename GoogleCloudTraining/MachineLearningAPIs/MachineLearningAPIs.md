@@ -1,0 +1,10 @@
+## MachineLearningAPIs
+* [Introduction to APIs in Google]()
+* [Extract, Analyze, and Translate Text from Images with the Cloud ML APIs]()
+* [Classify Text into Categories with the NL API]()
+* [Detect Lables, Faces, and Land marks in Images with the Cloud Vision API]()
+* [Entity and Sentiment Analysis with the NL API]()
+* [Awwvisio: Cloud VisionAPI from a Kubernetes Cluster]()
+* [Classify Images of Clouds in the Cloud with AutoML Vision]()
+* [Implementing an AI Chatbot with Dialogflow]()
+* [Cloud ML Engine]()
