@@ -1,3 +1,3 @@
 # JavaScript
 
-Learning on [Programmers](https://programmers.co.kr/learn/courses/3)
+Learning on [Programmers.Hello,JavaScript](https://programmers.co.kr/learn/courses/3)
