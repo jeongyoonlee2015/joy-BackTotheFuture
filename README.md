@@ -4,8 +4,8 @@
 
 * Skills
   * [Java](https://github.com/jeongyoonlee2015/joy-BackTotheFuture/tree/master/Java)
-  * [Python]() - (2019.03~)
-  * [Testing]() - (2019.03~)
+  * [JSON](https://github.com/jeongyoonlee2015/joy-BackTotheFuture/tree/master/JSON) - (2019.03~)
+  * [JavaScript]() - (2019.03~)
   * [Knowledge]()
 
 * English
