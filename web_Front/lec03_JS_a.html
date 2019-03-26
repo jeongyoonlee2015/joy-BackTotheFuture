@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form
+			method="GET" action="b.html" id="form1"
+			onsubmit="console.log('from tag'); return false;">
+			
+			이름: <input type="text" name="id"> <br>
+			메세지: <input type="text" name="msg"><br>
+			<input type="submit">
+		</form>
+
+		<script> // script 사용
+			var t = document.getElementById("form1");
+			t.onsubmit = function a(){
+				console.log("from property");
+				return false;
+			}
+			function b(){
+				console.log("from addEventListener");
+				return false;
+			}
+			function c(){
+				console.log("from addEventListener-2");
+				return false;
+			}
+			t.addEventListener("submit", b);
+			t.addEventListener("submit", c);
+
+		</script>
+
+	</body>
+</html>
