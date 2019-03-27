@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script>
+			var req = new XMLHttpRequest();
+			req.onreadystatechange = function a(){//readyState가 변할 때마다 해당 메소드가 호출되면서 디스의 레디스테이트를 출력하게되면 request의 메소드로 등록 되었기 때문에 디스 접속시 리퀘스트에 접속된다.
+			// 유용하게 사용할 수 있는 속성 중하나인 status는 httpresponse의 응답 코드를 나타낸다. not found 404 같은 것들
+				console.log(this.reqdyState, this.status);
+				if(this.readyState == 4 && this.status == 200){
+					console.log(this.response);
+				}
+			}
+			req.open("GET", "http://google.com");
+			req.send();//--disable-web-security 옵션 설정
+			console.log(req.response);
+		</script>
+	</head>
+	<body>
+		AJAX
+	</body>
+</html>

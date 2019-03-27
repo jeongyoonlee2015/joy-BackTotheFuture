@@ -1,0 +1,14 @@
+// dev tool
+var arr = ["배열", 1234, undefined, true];
+var t = JSON.stringify(arr);
+JSON.parse(t);
+var obj ={
+	"str" : "배열",
+	"num" : 1234,
+	"undefined": undefined,
+	"boolean" : true
+}
+var t2 = JSON.stringify(obj);
+t2 //obj대로 된 배열
+JSON.parse(t2);
+//객체반환됨(method와 undefined는 누락된다.)
