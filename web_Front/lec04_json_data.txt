@@ -1,0 +1,9 @@
+[
+	{"id" : "Adela", "msg" : "Here's looking at you, kid."},
+	{"id" : "Julia", "msg" : "When the Lord closes a door, somewhere he opens a window."},
+	{"id" : "Joy", "msg" : "I want to enjoy things and have fun and live like every day is the last day."},
+	{"id" : "Edith", "msg" : "Time heals everything."},
+	{"id" : "Dana", "msg" : "I will be back."},
+	{"id" : "Crystal", "msg" : "Make it count."},
+	{"id" : "Alice", "msg" : "Off into the world we go."}
+]

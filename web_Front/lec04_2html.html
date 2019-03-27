@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<meta charset = "utf-8">
+	<style>
+		.character {color : black;}
+		.word{color : gray;}
+	</style>
+	<script>
+		var req = new XMLHttpRequest();
+		req.onreadystatechange = function a(){
+			console.log(this.readyState, this.status);
+			if(this.readyState == 4){
+				console.log(this.response);
+				var data = JSON.parse(this.response); // 배열형태의 데이터임
+				for(var i in data){
+					var t = document.getElementById("template").cloneNode(true);
+					t.removeAttribute("id");
+					t.children[0].innerText = data[i].id;
+					t.children[1].innerText = data[i].msg;
+					document.body.appendChild(t);
+					
+				}
+			}
+		}
+		req.open("GET", "./lec04_json_data.txt");
+		req.send();
+
+	 	</script>
+	</head>
+	<body>
+		<p id = "template">
+			<span class = "character"> 주인공 </span> : <span class = "word"> 명대사 </span>
+		</p>
+	</body>
+</html>
