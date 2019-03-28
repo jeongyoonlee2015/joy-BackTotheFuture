@@ -1,0 +1,13 @@
+			h1{
+				font-size: 3.3em;
+				text-align: center;
+			}
+			h2{
+				color: blue;
+			}
+			#songwriter, #lyricist{
+				text-align: right;
+			}
+			#lyric{
+				 font-size: 1.5em;
+				 }
