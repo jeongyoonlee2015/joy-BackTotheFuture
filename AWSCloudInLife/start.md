@@ -3,8 +3,8 @@
 [Schedule](https://yah.ac/aws)
 
 * Objective
- * S3 upload - web server utilization
- * Using Cloudfront
+  * S3 upload - web server utilization
+  * Using Cloudfront
 
 * Contents
   * Orientation
