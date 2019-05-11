@@ -21,3 +21,12 @@
 > 05.10.2019. Sookmyoung University in Seoul
 > Lecture: AWS Cloud Essential (10:00-13:30)
 * Contents
+
+
+
+
+
+
+
+
+<img width="1059" alt="aws" src="https://user-images.githubusercontent.com/43804152/57566138-1014ca80-7404-11e9-9b42-2e0e4617fd15.png">
