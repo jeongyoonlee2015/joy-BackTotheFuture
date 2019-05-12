@@ -21,8 +21,12 @@
 > 05.10.2019. Sookmyoung University in Seoul
 > Lecture: AWS Cloud Essential (10:00-13:30)
 * Contents
-
-
+  * Basic Concepts
+  * Module 1:
+  * Module 2:
+  * Module 3:
+  * Module 4:
+  * Module 5:
 
 
 
