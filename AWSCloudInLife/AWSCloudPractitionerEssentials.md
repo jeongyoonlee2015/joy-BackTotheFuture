@@ -28,6 +28,7 @@
 
 * 방화벽 - 네트워크
 * VPC
-* NLB(Network Load Balancer) - Tier 4
-* ALB(Application Load Balancer) - Tier 7 : 웹서버 앞에 주로 둠
-* CLB(Classic Load Balancer)
+* LB
+  * NLB(Network Load Balancer) - Tier 4
+  * ALB(Application Load Balancer) - Tier 7 : 웹서버 앞에 주로 둠
+  * CLB(Classic Load Balancer)
