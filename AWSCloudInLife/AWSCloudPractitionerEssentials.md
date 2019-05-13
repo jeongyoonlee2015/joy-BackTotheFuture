@@ -6,6 +6,7 @@
 * Cloud = Public Goods
 
 * Datat Center
+## Module1 
 * [Region](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-regions-availability-zones)
   * AZ(Available Zone)
      * 말 그대로 가용영역.
@@ -23,3 +24,10 @@
   3) public Subnet 1개 생성
   4) Private Subnet 1개 생성
     
+## Module : Security
+
+* 방화벽 - 네트워크
+* VPC
+* NLB(Network Load Balancer) - Tier 4
+* ALB(Application Load Balancer) - Tier 7 : 웹서버 앞에 주로 둠
+* CLB(Classic Load Balancer)
