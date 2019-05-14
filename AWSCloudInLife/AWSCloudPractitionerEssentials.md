@@ -1,4 +1,4 @@
-## Intro
+## Module1: AWS Cloud
 * AWS Cloud
 * Cloud Computing
   * 인터넷을 통해 IT리소스와 애플리케이션을 On Demand로 제공하는 서비스를 말한다.
@@ -6,7 +6,7 @@
 * Cloud = Public Goods
 
 * Datat Center
-## Module1 
+## Module2: AWS Main Point Service
 * [Region](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-regions-availability-zones)
   * AZ(Available Zone)
      * 말 그대로 가용영역.
@@ -24,7 +24,7 @@
   3) public Subnet 1개 생성
   4) Private Subnet 1개 생성
     
-## Module : Security
+## Module3: AWS Security
 
 * 방화벽 - 네트워크
 * VPC
