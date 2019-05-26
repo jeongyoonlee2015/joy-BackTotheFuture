@@ -16,7 +16,7 @@
       
 * Head of Google Cloud Korea Customer Engineering, Yang   
 
-  * Cloud TPU Offering (for Tensorflow)
+  * Cloud TPU Offering
   * Collaboration with Open Source
   * Anthos
   * Cloud Data Service(New)
