@@ -12,7 +12,7 @@
     * 2017: Singapore, N.Virginia, London, Sydney, Frankfurt, Sao Paulo, Mumbai
     * 2018: Montreal, Netherlands, Finland, Los Angeles, Hong Kong
     * 2019: Zurich, Osaka
-    * 2020: Seoul, Salt Lake City, Jakarta
+    * 2020: __Seoul__, Salt Lake City, Jakarta
       
 * Head of Google Cloud Korea Customer Engineering, Yang   
 
