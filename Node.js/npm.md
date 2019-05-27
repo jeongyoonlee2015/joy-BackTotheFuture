@@ -34,7 +34,7 @@ npm provides semantic versioning.
 ## version i.j.k
 ### MajorVersionNumber.MinorVersionNumber.PatchVersionNumber
 
-### npm init
+## npm init
 * Package name
 * Version
 * Description
