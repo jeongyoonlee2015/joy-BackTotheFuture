@@ -2,9 +2,3 @@
 ## 2019.03.07 ~ 2019.11.00
 * Kick-off meeting (03.17.2019)
 * 2nd Mentoring: Practice Bloomberg Terminal(05.30.2019)
-  * Function
-  * Bquant()
-    * BQL
-    * Jupyter Notebook
-    * Preprocessing
-    * sklearn
