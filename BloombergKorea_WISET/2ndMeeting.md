@@ -6,6 +6,6 @@
 * Function
 * Bquant(Optimization)
  * BQL(Bloomberg Query Language)
- * [Jupyter Notebook]
+ * [Jupyter Notebook]()
  * Preprocessing
  * [sklearn](https://scikit-learn.org/stable/index.html)
