@@ -4,3 +4,8 @@ Jupyter notebook used to be called ipython notebook before.
 
 Jupyter notebook is a web application that allows you to run live code, embed visualization and explanatory text all in one place.
 
+   ```
+   from sklearn import preprocessing
+   import pandas
+   
+   ```
