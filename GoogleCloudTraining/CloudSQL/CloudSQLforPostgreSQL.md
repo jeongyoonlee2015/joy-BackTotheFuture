@@ -9,7 +9,5 @@ If you command to Cloud shell, It indicates the Error message.
 ERROR: (gcloud.sql.connect) HTTPError 409: Operation failed because another operation was already in progress.
 ```
 
-## Quiz
-
-What is the name of default database in Postgres Cloud SQL instance?
+### Quiz: What is the name of default database in Postgres Cloud SQL instance?
 postgres
