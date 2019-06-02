@@ -5,7 +5,7 @@
 
 [Cloud SQL for PostgreSQL](https://github.com/jeongyoonlee2015/joy-BackTotheFuture/blob/master/GoogleCloudTraining/CloudSQL/CloudSQLforPostgreSQL.md)
 
-[Loading Data into Google Cloud SQL]()
+[Loading Data into Google Cloud SQL](https://github.com/jeongyoonlee2015/joy-BackTotheFuture/blob/master/GoogleCloudTraining/CloudSQL/LoadingDataintoGoogleCloudSQL%20favorite_borderAddtofavorites.md)
 
 [Running WordPress on App Engine Flexible Environment]()
 
