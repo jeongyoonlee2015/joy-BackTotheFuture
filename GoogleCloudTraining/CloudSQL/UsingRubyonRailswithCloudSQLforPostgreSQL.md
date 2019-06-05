@@ -17,9 +17,12 @@
 ## Ruby is...
 
 Developer: まつもとゆきひろ(Yukihiro Matsumoto)
+
 Filename Extension: rb
+
 License: Ruby; GNU GPLv2; BSD
-[Ruby is...](https://www.ruby-lang.org/en/)
+
+### [Ruby is...](https://www.ruby-lang.org/en/)
 
 A dynamic, open source programming language with a focus on simplicity and productivity.
 It has an elegant syntax that is natural to read and easy to write.
