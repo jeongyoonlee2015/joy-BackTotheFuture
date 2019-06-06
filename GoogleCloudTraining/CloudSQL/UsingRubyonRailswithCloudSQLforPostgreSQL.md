@@ -25,3 +25,12 @@ Developer: まつもとゆきひろ(Yukihiro Matsumoto)
 Filename Extension: rb
 
 License: Ruby; GNU GPLv2; BSD
+
+## [Ruby on rails is...](https://rubyonrails.org/)
+
+
+Developer:
+
+Applications were built with Ruby on Rails: Basecamp, GitHub, Shopify, Airbnb, Twitch, SoundCloud, Hulu, Zendesk, Square, Cookpad. 
+
+[Korean Guides](https://rubykr.github.io/rails_guides/getting_started.html)
