@@ -6,6 +6,7 @@
 ```.c
 
 #include <stdio.h>
+
 void swap(int *L, int *R)
 {
   int Temp;
@@ -18,11 +19,13 @@ void swap(int *L, int *R)
 int GCD(int X, intY)
 {
   for( ; ; ){
-            int M = X % Y;
-            if(M == 0)
-                  break;
-            X = Y;
-            Y = M;
+       int M = X % Y;
+       
+       if(M == 0)
+             break;
+       
+       X = Y;
+       Y = M;
             
       }
       return Y;
@@ -58,29 +61,39 @@ public class Exam7{
   static void swap(int[])
   {
     int Temp;
+    
     Temp = L[0];
     L[0] = L[1];
     L[1] = Temp;
   }
+  
   static int GCD(int X, int Y)
   {
       int M = X % Y;
+
       if(M == 0)
             return Y;
       return GCD(Y, M);
   }
   public static void main(String[] args){
+  
     int A[] = new int[2];
     int R;
+    
     Scanner Stdinput = new Scanner(System.in);
     System.out.println("두 수를 입력하세요.");
+    
     System.out.pirintln(">>> 첫번째 수");
     A[0] = Stdinput.nextint();
+    
     System.out.println(">>> 두번째 수");
     A[1] = Stdinput.nextint();
+    
     System.outn.print(A[0] + "와" + A[1]);
+    
     if(A[0] < A[1])swap(A);
     R = GCD(A[0],A[1]);
+    
     System.out.println("의 최대공약수는" +R+ "입니다.");
   }
 }
