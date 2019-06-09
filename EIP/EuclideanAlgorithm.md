@@ -1,5 +1,8 @@
 # Euclidean Algorithm
 
+
+### C
+
 ```.c
 
 #include <stdio.h>
@@ -44,6 +47,8 @@ int GCD(int X, intY)
 ```
 
 ----
+
+### java
 
 ```.java
 
