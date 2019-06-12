@@ -1,4 +1,4 @@
-# EffecticeML Summary
+# Effectice ML Summary
 
 
 * TensorFlow contains multiple abstraction levels
@@ -16,3 +16,10 @@
 1. Big Data
 2. Feature Engineering
 3. Model Architectures
+
+# Fully managed ML Summary
+* Who does the preprocessing?
+* Who will do the input transformations on behalf of the client code?
+
+Input - Preprocessing - Feature creation - Train model - Model(TF) - (Deploy) - WebApp
+-(Prediction || REST API call with input variables) - Clients
