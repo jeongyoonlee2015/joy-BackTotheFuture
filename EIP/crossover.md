@@ -7,6 +7,7 @@ void main()
   double S = 0;
   int SW = 0;
   double L = 0;
+  
   do {
     K++;
     L = (double) K / ((K + 1) * (K + 2));
@@ -19,6 +20,7 @@ void main()
       SW = 0;
     }
   }while(K != 49);
+  
   printf("%f\n", S);
 }
   
