@@ -35,3 +35,42 @@ int main()
 }
 
 ```
+
+```.java
+
+public class zigzagArray{
+	public static void main(String[] args){
+		int length = 5;
+		int output = length;
+		int[][] array = new int[length][length];
+		int i, j;
+		int SW = 1;
+		int k = 1;
+
+		for(i = 0; i < length; i++){
+			if(SW == 1){
+				for(j = 0; j < length; j++){
+					array[i][i = k;
+					k = k+1;
+				}
+			}
+			else{
+				for(j = length - 1; j >= 0; j--){
+					array[i][j] = k;
+					k = k+1;
+				}
+			}
+			SW = SW * (-1);
+		}
+
+		for(i = 0; i < 5; i++){
+			for(j = 0; j < 5; j++){
+				System.out.printf("%2d", array[i][j]);
+			}
+			System.out.println();
+		}
+	}
+}
+
+```
+
