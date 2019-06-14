@@ -10,7 +10,7 @@ int main()
 
 	TR = 0, START = 1, END = 5, SW = 1, K = 0;
 
-	for(R = 1; R !=6; R++)
+	for(R = 1; R != 6; R++)
 	{
 		for(C = START; C != (END + SW); C +- SW) // % 연산으로 바꿔도 될 듯
 		{
@@ -40,6 +40,7 @@ int main()
 
 public class zigzagArray{
 	public static void main(String[] args){
+	
 		int length = 5;
 		int output = length;
 		int[][] array = new int[length][length];
@@ -48,6 +49,7 @@ public class zigzagArray{
 		int k = 1;
 
 		for(i = 0; i < length; i++){
+		
 			if(SW == 1){
 				for(j = 0; j < length; j++){
 					array[i][i = k;
