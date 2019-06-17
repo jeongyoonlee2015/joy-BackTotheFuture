@@ -1,5 +1,5 @@
 * [모래시계](https://github.com/jeongyoonlee2015/joy-BackTotheFuture/blob/master/EIP/Hourglass.md)
-* [ㄹ배열]()
+* [ㄹ배열](https://github.com/jeongyoonlee2015/joy-BackTotheFuture/blob/master/EIP/zigzagArray.md)
 * [약수]()
 * [90도회전]()
 * [화폐매수]()
