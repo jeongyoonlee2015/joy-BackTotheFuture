@@ -8,3 +8,6 @@
    * [삽입정렬](https://github.com/jeongyoonlee2015/joy-BackTotheFuture/blob/master/EIP/insertionsort.md)
    * [선택정렬]()
    * [버블정렬]()
+
+
+* [최소최대](https://github.com/jeongyoonlee2015/joy-BackTotheFuture/blob/master/EIP/MinMax.md)
