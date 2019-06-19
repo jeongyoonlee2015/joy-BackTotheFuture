@@ -17,7 +17,7 @@ void main()
     }
     printf("\n 1+2+...+10 = %d \n", sum); 
 }
-``
+```
 ### JAVA
 ```.java
 
@@ -35,5 +35,4 @@ public lcass Test{
 Answer: 654321
 
 ```
-
 ----
