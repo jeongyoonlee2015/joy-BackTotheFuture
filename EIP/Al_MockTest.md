@@ -18,10 +18,12 @@ void main()
     printf("\n 1+2+...+10 = %d \n", sum); 
 }
 ```
+Answer: number <=
+
 ### JAVA
 ```.java
 
-public lcass Test{
+public class Test{
   public static void main(String[] args){
     int[]a = {1,2,3,4,5,6};
     int i = a.length -1;
@@ -31,8 +33,7 @@ public lcass Test{
     }
   }
 }
-
+```
 Answer: 654321
 
-```
 ----
