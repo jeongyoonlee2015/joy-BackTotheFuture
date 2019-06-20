@@ -116,4 +116,26 @@ public class Test{
   }
 }
 ```
-Answer: [1*1 + 2*2 + 3*3 + 4*4 + 5*5 = 55]
+Answer: 1*1 + 2*2 + 3*3 + 4*4 + 5*5 = 55
+
+----
+# Test4
+```.c
+#include <stdio.h>
+void main()
+{
+  int A = 1, B = 1, S = A + B;
+  int N = 2;
+  int C = 0;
+  while(1){
+      C = A + B;
+      S += C;
+      A = B;
+      B = C;
+      N++;
+      if(N == 100) break;
+  }
+  printf("%d\n", S);
+}
+```
+Answer: C = A + B
