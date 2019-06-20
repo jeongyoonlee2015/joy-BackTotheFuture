@@ -38,7 +38,11 @@ Input - Preprocessing - Feature creation - Train model - Model(TF) - (Deploy) - 
  ## Datalab
  #### Datalab notebooks are developed in an iterative, collaborative process
  Phase 1. Write code in Python
+ 
  Phase 2. Run cell
+ 
  Phase 3. Examin Ouput
+ 
  Phase 4. Write commentary in markdown
+ 
  Phase 5. Share and collaborate
