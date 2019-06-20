@@ -90,10 +90,30 @@ void main()
   while(1){
       A = A * R;
       S = S + A;
-      N++;
+      N++; // N = N + 1;
       if(N > 100) break;
   }
   printf("%d\n", S);
 }
 
 ```
+Answer: N++
+
+```.java
+
+public class Test{
+  public static void main(String[] args){
+    int[] n = {1, 2, 3, 4, 5};
+    int sum = 0;
+    
+    for(int k : n){
+      sum += k * k;
+      if(k != n.length)
+        System.out.print(k + "*" + k + "+");
+      else System.out.print(k + "*" + k + "=");
+    }
+    System.out.println(sum);
+  }
+}
+```
+Answer: 1*1 + 2*2 + 3*3 + 4*4 + 5*5 = 55
