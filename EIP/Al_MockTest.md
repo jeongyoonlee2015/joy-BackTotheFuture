@@ -62,8 +62,8 @@ Answer: N > 200
 
 ```.java
 
-publci class Test{
-  publc static void main(String[] args){
+public class Test{
+  public static void main(String[] args){
     
     String week[] = {"일", "월", "화", "수", "목", "금", "토"}
     
@@ -74,3 +74,26 @@ publci class Test{
 
 ```
 Answer: 일 월 화 수 목 금 토
+
+----
+
+# Test3
+```.c
+
+#include <stdio.h>
+void main()
+{
+  int R = 3;
+  int A = 2;
+  int S = A;
+  int N = 2;
+  while(1){
+      A = A * R;
+      S = S + A;
+      N++;
+      if(N > 100) break;
+  }
+  printf("%d\n", S);
+}
+
+```
