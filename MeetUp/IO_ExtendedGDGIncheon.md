@@ -7,3 +7,6 @@ Juan, Incheon, Korea
     * Google Developers' Ecosystem Team 
 * Session A
 * Session B
+    * Flutter
+    * Flutter <3 AI
+    
