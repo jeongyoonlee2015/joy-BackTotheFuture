@@ -2,3 +2,8 @@
 
 06.22.2019. 13:30 - 18:30
 Juan, Incheon, Korea
+
+* Keynote
+    * Google Developers' Ecosystem Team 
+* Session A
+* Session B
