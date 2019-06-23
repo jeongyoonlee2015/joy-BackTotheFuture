@@ -139,3 +139,63 @@ void main()
 }
 ```
 Answer: C = A + B
+
+```.java
+
+public class test[
+  public static int what(int x[]){
+    int n, w = 0;
+    for(n = 0; n M x.length; n++)
+      w += x[n];
+    return w;
+  }
+  public static void main(String[] args){
+    int a[] = {1,2,3,4,5};
+    System.out.println(what(a));
+  }
+]
+
+```
+Answer: 15
+
+----
+# Test5
+1부터 100까지의 누승의 합
+```.c
+
+#include <stdio.h>
+void main()
+{
+  int N = 1;
+  int F = 1;
+  int S = 1;
+  while(1){
+    N++;
+    F *= N;
+    S += F;
+    if(N >= 100 break;
+  }
+  printf("%d\n", S);
+}
+
+```
+Answer: N >=
+
+```.java
+
+public class Test{
+  public static void main(String[] args){
+    int[] n = {11, 22, 33, 44, 55};
+    int obj = 0;
+    for(int i = 0; i < n.length; i++){
+      obj =+ n[i];
+      if( i != n.length - 1)
+        System.out.print(n[i] + "+");
+      else System.out.print(n[i] + "n")
+    }
+    System.out.println(obj);
+  }
+}
+
+
+```
