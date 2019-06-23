@@ -96,32 +96,72 @@ void main()
 Answer: MATH[i] >
 ## JAVA
 ```.java
+public class Test{
+  public static void main(String[] args){
+    String date = new String("2018-01-08");
 
+    String s[] = date.split("-";
+    System.out.print(s[0] + "년" + s[1] + "월" + s[2] + "일=> ");
 
-
+    for(int i = 1; i < s.length; i++){
+      if(10 > Integer.parseint(s[i]) && s[i].contains("0"))
+        s[i] = s[i].replace("0", ""); 
+    }
+    System.out.println(s[0] + ". " + s[1] + ". " + s[2]+ ".");
+  }
+}
 ```
-Answer:
+Answer: 2018년01월08일=> 2018. 1. 8.
 
 ----
-# Test
+# Test9
 ## C
-#### content
+#### 1부터 100사이 가장 큰 소수 구하기
 ```.c
-
-
-
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+  int P = 2;
+  int N = 1;
+  while(1){
+    int M = int(sqrt(double(N)));
+    for(int = 2; i <= M; i++){
+      int R = ;
+      if(R == 0)
+        break;
+      if(i == M)
+        P = N;
+    }
+    N++;
+    if(N > 100) break;
+  }
+  printf("%d\n", P);
+}
 ```
-Answer:
+Answer: 다시풀기
 ## JAVA
 ```.java
+public class Test{
+  public static void main(String[] args){
+    String path = "C:/Users/Downloads/test.txt";
+    String dir, fileName, ext;
 
-
-
+    int index = path.lastIndexOf(".");
+    int fdir = path.lastIndexOf("/");
+    if(index == -1) return;
+    dir = path.substring(0. fdir);
+    fileName = path.substring(fdir + 1, index);
+    ext = path.substring(index + 1);
+    System.out.println("디렉토리:" + dir + "\n파일명:" + fileName);
+    System.out.println("확장자:" + ext);
+  }
+}
 ```
-Answer:
+Answer: 다시풀기
 
 ----
-# Test
+# Test10
 ## C
 #### content
 ```.c
