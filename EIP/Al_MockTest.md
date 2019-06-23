@@ -1,7 +1,6 @@
 # Test1
-### C
-다음 C언어로구현된 1부터 10까지 더하는 덧셈 프로그램에서 1에 들어갈 가장 적합한 변수
-
+## C
+#### 다음 C언어로구현된 1부터 10까지 더하는 덧셈 프로그램에서 1에 들어갈 가장 적합한 변수
 ```.c
 
 #include<stdio.h>
@@ -19,8 +18,7 @@ void main()
 }
 ```
 Answer: number <=
-
-### JAVA
+## JAVA
 ```.java
 
 public class Test{
@@ -37,9 +35,9 @@ public class Test{
 Answer: 654321
 
 ----
-
 # Test2
-
+## C
+#### 등차수열 200번째 숫자까지의 합
 ```.c
 #include <stdio.h>
 void main()
@@ -59,7 +57,7 @@ void main()
 }
 ```
 Answer: N > 200
-
+## JAVA
 ```.java
 
 public class Test{
@@ -71,15 +69,14 @@ public class Test{
       System.out.print(w + "");
   }
 }
-
 ```
 Answer: 일 월 화 수 목 금 토
 
 ----
-
 # Test3
+## C
+#### 등비수열 100번째 숫자까지의 합
 ```.c
-
 #include <stdio.h>
 void main()
 {
@@ -95,10 +92,9 @@ void main()
   }
   printf("%d\n", S);
 }
-
 ```
 Answer: N++
-
+## JAVA
 ```.java
 
 public class Test{
@@ -139,9 +135,8 @@ void main()
 }
 ```
 Answer: C = A + B
-
+## JAVA
 ```.java
-
 public class test[
   public static int what(int x[]){
     int n, w = 0;
@@ -154,12 +149,12 @@ public class test[
     System.out.println(what(a));
   }
 ]
-
 ```
 Answer: 15
 
 ----
 # Test5
+## C
 1부터 100까지의 누승의 합
 ```.c
 
@@ -177,10 +172,9 @@ void main()
   }
   printf("%d\n", S);
 }
-
 ```
 Answer: N >=
-
+## JAVA
 ```.java
 
 public class Test{
@@ -196,5 +190,5 @@ public class Test{
     System.out.println(obj);
   }
 }
-
 ```
+Answer: 11+22+33+44+55=165
