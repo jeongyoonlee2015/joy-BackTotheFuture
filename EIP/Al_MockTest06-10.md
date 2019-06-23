@@ -163,17 +163,40 @@ Answer: 다시풀기
 ----
 # Test10
 ## C
-#### content
+#### 3의 배수이면서 4의 배수인 숫자의 개수 구하기
 ```.c
+#include<stdio.h>
+void main()
+{
+  int A[10] = {21, 17, 4,51, 24, 75, 40, 27, 48, 72};
+  int CNT = 0;
+  int i = 0;
 
+  do{
+    int N3 = A[i] % 3;
+    int N4 = A[i] % 4;
+    int N = N3 + N4;
 
-
+    if(N == 0)CNT++;
+    i++;
+  }while(i < 10);
+  printf("%d\n", CNT);
+}
 ```
-Answer:
+Answer: == 0
 ## JAVA
 ```.java
-
-
-
+public class Test{
+  public static void main(String[] args){
+    int M = 1;
+    int N = 1;
+    While(true){
+      M = M * N;
+      N = N + 1;
+      if(N > 5)break;
+    }
+    System.out.println(M);
+  }
+}
 ```
-Answer:
+Answer: 120(주의!)
