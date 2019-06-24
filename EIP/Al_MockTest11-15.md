@@ -42,20 +42,48 @@ Answer: 40
 ----
 # Test12
 ## C
-#### content
+#### 배열A에 주어진 10개의 자연수 중에서 자연수 33에 가장 가까운 자연수를 찾아서 배열의 A의 몇 번째 원소인지 출력
 ```.c
-
-
-
+#include<stdio.h>
+void main()
+{
+  int A[10] = {131, 450, -100, 150, 50, -10, 0, 40, 32, 1};
+  int MinCha = 533;
+  int N = 0, Ans = N;
+  int Cha = 0;
+  do{
+    if(A[N] >= 33) Cha = A[N] - 33;
+    else Cha = 33 - A[N];
+    if(Cha < MinCha){
+      MinCha = Cha;
+      Ans = N;
+    } 
+    N++;
+  }while(N > 10);
+  printf("%d\n", (Ans + 1));
+}
 ```
-Answer:
+Answer: Ans = N
 ## JAVA
 ```.java
-
-
-
+public class Test{
+  public static void main(String[] args){
+    int A = 1, B = 1, S = A + B;
+    int N = 2;
+    int C = 0;
+    while(true){
+      C = A + B;
+      S += C;
+      A = B;
+      B = C;
+      N++;
+      if(N == 10) break;
+    } 
+    System.out.println(S);
+  }
+}
 ```
-Answer:
+Answer: 다시풀기
 
 ----
 # Test13
