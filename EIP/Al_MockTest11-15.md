@@ -112,7 +112,18 @@ void main()
 Answer:
 ## JAVA
 ```.java
-
+public class Test{
+  public static void main(String[] args){
+    int N = 0, S = 0;
+    do{
+      N++;
+      S +=N;
+      N++;
+      S -= N;
+    }while(N != 10);
+    System.out.println(S);
+  }
+}
 ```
 Answer:
 
@@ -126,7 +137,23 @@ Answer:
 Answer:
 ## JAVA
 ```.java
-
+public class Test{
+  public static void main(String[] args){
+    int A[][] = new int[5][5];
+    int V = 1;
+    int R = 0;
+    int C;
+    do{
+      C = R;
+      do{
+        A[R][C] = V;
+        V++;
+        C++;
+      }while(C <= 4);
+      R++;
+    }while(R <= 4);
+  }
+}
 ```
 Answer:
 ----
