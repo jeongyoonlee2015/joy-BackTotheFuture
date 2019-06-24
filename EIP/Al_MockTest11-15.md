@@ -88,17 +88,30 @@ Answer: 다시풀기
 ----
 # Test13
 ## C
-#### content
+#### 100명의 영어성적을 오름차순으로 삽입 정렬
 ```.c
-
-
-
+#include<stdio.h>
+void main()
+{
+  int E[5] = {95, 75, 85, 100, 50}
+  int i;
+  int j, KEY;
+  for(i = 1; i < 5; i++){
+    KEY = E[i];
+    for(j = i - 1; j >= 0; j--){
+      if(E[j] <= KEY)break;
+        E[j + 1] = E[j];
+    }
+    ________;
+  }
+  for(i = 0; i < 5; i++
+      printf("%d\t", E[i]);
+  printf("\n");
+}
 ```
 Answer:
 ## JAVA
 ```.java
-
-
 
 ```
 Answer:
@@ -109,14 +122,10 @@ Answer:
 #### content
 ```.c
 
-
-
 ```
 Answer:
 ## JAVA
 ```.java
-
-
 
 ```
 Answer:
@@ -126,14 +135,10 @@ Answer:
 #### content
 ```.c
 
-
-
 ```
 Answer:
 ## JAVA
 ```.java
-
-
 
 ```
 Answer:
