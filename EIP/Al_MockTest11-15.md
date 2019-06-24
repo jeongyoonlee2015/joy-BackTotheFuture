@@ -179,11 +179,41 @@ Answer:
 ## C
 #### 학생 10명의 점수가 배열T에 주어질 때 평균점수보다 높은 점수를 얻는 학생들의 수를 계산하는 프로그램
 ```.c
-
+#include<stdio.h>
+void main(){
+  int T[10] = {55, 66, 78, 25, 48, 95, 100, 95, 73, 70};
+  int S = 0;
+  int i = 0;
+  do{
+    S += T[i];
+    i++;
+  }while(i < 10);
+  double M = S / 10;
+  int CNT = 0;
+  i = 0;
+  do{
+    if(T[i] > M)CNT++;
+    i++;
+  }while(i < 10);
+  printf("퍙균점 %.2lf보다 높은 성적의 학생수: %d\n", M, CNT);
+}
 ```
-Answer:
+Answer: T[i] > M
 ## JAVA
 ```.java
+public class Test{
+  public static void main(String[] args){
+    char A[][] = {{'A', 'B', 'C', 'D', 'E'},{'F', 'G', 'H', 'I', 'J'}, {'K', 'L', 'M', 'N', 'O'}, {'P', 'Q', 'R', 'S', 'T'}, {'U', 'V', 'W', 'X', 'Y'}};
+    char B[][] = new char[5][5];
+    int N;
+    for(int R = 0; R <= 4; R++){
+      for(int C = 0; C <= 4; C++){
+        N = 4 - R;
+        B[C][N] = A[R][C];
+      }
+    }
+  }
+}
 
 ```
 Answer:
