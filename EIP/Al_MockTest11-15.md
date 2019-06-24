@@ -130,9 +130,27 @@ Answer:
 ----
 # Test14
 ## C
-#### content
+#### 100명의 영어성적을 오름차순으로 선택정렬
 ```.c
-
+#include<stdio.h>
+void main(){
+  int E[5] = {95, 75, 85, 100, 50};
+  int i = 0, Temp;
+  do{
+    int j_____;
+    do{
+      if(E[i] > E[j]){
+        Temp = E[i];
+        E[i] = E=[j];
+        E[j]= Temp;
+      }
+      j++;
+    }while(j < 5);
+    i++;
+  }while(i < 4);
+  for(int a = 0; a < 5; a++)printf("%d\t", E[a]);
+  printf("\n");
+}
 ```
 Answer:
 ## JAVA
@@ -159,7 +177,7 @@ Answer:
 ----
 # Test15
 ## C
-#### content
+#### 학생 10명의 점수가 배열T에 주어질 때 평균점수보다 높은 점수를 얻는 학생들의 수를 계산하는 프로그램
 ```.c
 
 ```
