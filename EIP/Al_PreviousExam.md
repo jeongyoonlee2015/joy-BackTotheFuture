@@ -39,6 +39,15 @@ void main(){
 }
 ```
 ### 약수 출력하기
+1의 약수: 1
+
+2의 약수: 2
+
+3의 약수: 13
+
+4의 약수: 124
+
+5의 약수: 15
 ```.c
 #include<stdio.h>
 void main(){
@@ -56,6 +65,12 @@ void main(){
 ```
 
 ## JAVA
+#### 출력 형식 보고 빈칸에 알맞은 답 쓰기
+01234
+
+12345
+
+23456
 ```.java
 public class Problem{
   public static void main(String[] args){
