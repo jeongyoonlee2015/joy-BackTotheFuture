@@ -38,3 +38,33 @@ void main(){
   printf("홀수의 개수: %d개", cnt);
 }
 ```
+### 약수 출력하기
+```.c
+#include<stdio.h>
+void main(){
+  int i, j;
+  for(i = 1; i <= 5; i++){
+    printf("%d의 약수: ", i);
+    for( j = 1; j <= 5; j++){
+      if(i % j == 0)
+        printf("%d", j);
+    }
+    printf("\n");
+  }
+  return 0;
+}
+```
+
+## JAVA
+```.java
+public class Problem{
+  public static void main(String[] args){
+    int[][] a = new int[3][5];
+    for(int i = 0; i < 3; i++){
+      a[i][j] = i + j;
+      System.out.printf("%d", a[i][j]);
+    }
+    system.out.println();
+  }
+}
+```
