@@ -19,6 +19,29 @@ Answer: num[i]
 // pause
 
 ```
+### 산업기사
+```.c
+#include <stdio.h>
+int recursive(int n)
+{
+	int i;
+	if(n < 1)
+		return 2;
+	else
+	{
+		i = (2 * recursive(n - 1)) + 1;
+		printf("%d\n", i);
+		return i;
+	}
+}
+void main()
+{
+	int i;
+	printf("숫자를 입력하시오: ");
+	scanf("%d", &i);
+	recursive(i);
+}
+```
 
 ----
 # 2018_01
