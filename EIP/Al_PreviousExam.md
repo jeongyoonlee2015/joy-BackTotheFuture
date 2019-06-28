@@ -44,6 +44,28 @@ void main()
 ```
 
 ----
+# 2017_02
+## C
+#### 팩토리얼 계산
+```.c
+#include<stdio.h>
+int factorial(int n)
+{
+  if(n == 0)
+      return 1;
+  else
+      return n * factorial(n - 1);
+}
+void main()
+{
+  int i;
+  printf("숫자를 입력하시오: ");
+  scnaf("%d", &i);
+  printf("%d! : %d\n", i, factorial(i));
+}
+```
+
+----
 # 2018_01
 ## C
 #### 5개의 정수를 입력받아 홀수의 개수를 구하여 출력하기
