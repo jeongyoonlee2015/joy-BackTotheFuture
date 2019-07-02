@@ -1,4 +1,4 @@
-# Effectice ML Summary
+# Effective ML Summary
 
 
 * TensorFlow contains multiple abstraction levels
