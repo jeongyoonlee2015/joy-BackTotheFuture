@@ -1,5 +1,6 @@
 # Reversing
 <img width="806" alt="스크린샷 2019-07-18 오전 10 53 28" src="https://user-images.githubusercontent.com/43804152/61423371-76f5b900-a94a-11e9-83a5-bbcbbde22961.png">
+<img width="1033" alt="스크린샷 2019-07-18 오전 11 37 33" src="https://user-images.githubusercontent.com/43804152/61425023-79f3a800-a950-11e9-80de-daeffff42665.png">
 
 ### 박스에 물건을 넣은 후 박스가 어떤 다른 결과의 물건을 뱉는다고 했을 때,
 * 그건 내부 동작 원리에 의해 바뀌는 건데 그 원리는 무엇일까?
