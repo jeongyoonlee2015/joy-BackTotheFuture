@@ -1,5 +1,10 @@
 # Assembler
 
+#### Compiler || Assembler
+Compiler: 고급언어를 저급언어로 번역하는것
+
+Assembler: 컴퓨터가 이해할 수 있는 연속적인 비트로 구성된 기계어를 사람이 알아볼 수 있도록 만든 매크로 모음
+
 ### Assembly language / Assembler language
 
 * 기계어
@@ -35,3 +40,12 @@
   main endp
   end main
   ~~~
+  
+----
+## REF
+[PEView](http://wjradburn.com/software)
+[DetectItEasy](https://tuts4you.com/download.php?view.3518)
+[abex crackme](http://crackmes.de/users/abex/)
+[Lena](https://tuts4you.com/download.php?list.17)
+[OllyDumpEx](http://low-priority.appspot.com/ollydumpex/)
+[LoadPE](http://www.softpedia.com/get/Programming/File-Editors/LoardPE.shtml)
