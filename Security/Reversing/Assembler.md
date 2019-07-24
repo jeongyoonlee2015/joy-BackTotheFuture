@@ -53,4 +53,4 @@ Assembler: 컴퓨터가 이해할 수 있는 연속적인 비트로 구성된 �
 
 [OllyDumpEx](http://low-priority.appspot.com/ollydumpex/)
 
-[LoadPE](http://www.softpedia.com/get/Programming/File-Editors/LoardPE.shtml)
+[LoadPE](https://www.softpedia.com/get/Programming/File-Editors/LordPE.shtml)
