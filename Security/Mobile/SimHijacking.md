@@ -13,3 +13,8 @@
 -> Call_ID <br>
 -> (Send) SMS-DataMessage Containing Cell_ID <br>
 -> "Accomplice Device" <br>
+
+### How does they work?
+* retrieving IMEI information, language, radio type, battery level 
+* Spreading malware 
+* etc.
