@@ -18,3 +18,8 @@
 * retrieving IMEI information, language, radio type, battery level 
 * Spreading malware 
 * etc.
+
+----
+## Articles
+[Hijacking case1](https://www.techdirt.com/articles/20190513/09071542199/att-verizon-employees-caught-up-doj-sim-hijacking-bust.shtml)<br>
+[Hijacking case2](https://www.boannews.com/media/view.asp?idx=79478&kind=)<br>
