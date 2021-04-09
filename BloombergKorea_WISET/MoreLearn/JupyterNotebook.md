@@ -9,3 +9,6 @@ Jupyter notebook is a web application that allows you to run live code, embed vi
    import pandas
    
    ```
+   
+   
+[Bloomberg](https://guides.nyu.edu/bloombergguide/popular-commands)
